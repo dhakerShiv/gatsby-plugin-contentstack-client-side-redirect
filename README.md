@@ -1,6 +1,6 @@
 # gatsby-plugin-contentstack-client-side-redirect
 
-Generates client side redirect html files for redirecting on any static file host like s3 or netlify.
+Generates client side redirect html files for redirecting on any static site host like s3 or netlify.
 
 It uses `window.location.href = url` for redirection and `createRedirect` action provided by Gatsby
 
@@ -27,6 +27,8 @@ Steps -
   2. Create a group named as urls_mapping inside `Redirects` contenttype
   3. Create two text fields as `old_url` and `new_url` and save it
   4. Now enter pairs of old and new urls for redirection!
+
+Have a look at the code if you are interested :)
 
 ```
 exports.createPages = async ({ graphql, actions }) => {
