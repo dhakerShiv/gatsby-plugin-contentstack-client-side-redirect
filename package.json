@@ -1,0 +1,21 @@
+{
+  "name": "gatsby-plugin-contentstack-client-side-redirect",
+  "version": "0.0.2",
+  "repository": "git@github.com:dhakerShiv/gatsby-plugin-contentstack-client-side-redirect.git",
+  "author": "Shivnarayan Dhaker <shivnarayandhakar@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin"
+  ],
+  "scripts": {
+    "clean": "git clean -xdf ./*.js"
+  },
+  "dependencies": {
+    "gatsby-plugin-client-side-redirect": "^0.*"
+  }
+}
